@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in html</title>
+</head>
+<body>
+    <ol>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ol>
+    <hr>
+    <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Mango</li>
+    </ul>
+    <dl>
+        <dt>Apple</dt>
+        <dd>Red in color fruit</dd>
+        <dt>Orange</dt>
+        <dd>Orange in color fruit</dd>
+    </dl>
+
+<!-- table tag -->
+<table border="2px" style="text-align: center;">
+    <tr>
+        <th colspan="4">Students Details</th>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <th>RollNo</th>
+        <th>Home Town</th>
+        <th>Nationality</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>22F410H7</td>
+        <td>Kuppam</td>
+        <td rowspan="6">Indian</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>22F410H8</td>
+        <td>Bengaluru</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>22F410H9</td>
+        <td>Kerala</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>22F410I0</td>
+        <td>Marvada</td>
+    </tr>
+    <tr>
+        <td>E</td>
+        <td>22F410I1</td>
+        <td>Chittoor</td>
+    </tr>
+</table>
+
+<hr>
+
+    <form action="index.html" method="">
+        <label for="name" >Enter Name</label>
+        <input type="text">
+        <br>
+        <label for="rollno" >Enter RollNo</label>
+        <input type="text">
+        <br>
+        <label for="phnumber" >Enter Mobile</label>
+        <input type="number">
+        <br>
+        <label for="email">Enter Email</label>
+        <input type="email">
+        <br>
+        <label for="password">Enter your password</label>
+        <input type="password">
+        <br>
+        <label for="confirmpass">Confirm your password</label>
+        <input type="password">
+        <br>
+        <label for="interest">Select your interest</label>
+        <select name="hobbies" id="">
+            <option value="">select</option>
+            <option value="cricket">Cricket</option>
+            <option value="games">Games</option>
+            <option value="badminton">Badminton</option>
+            <option value="book">Books</option>
+        </select><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+    <audio>
+        <source src="">
+    </audio>
+    <iframe src="https://ubuntu.com" title="W3Schools Free Online Web Tutorials" width="500px" height="500px">
+</iframe>
+
+    <button onclick="(()=>{
+        console.log('heee')
+    })()">Click Here</button>
+</body>
+</html>
