@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+
+div{
+    display: flex;
+    justify-self:center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    background-color: white;
+    box-shadow: 5px 5px 2px black;
+    
+}
+div h2{
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: white;
+}
+input{
+    background-color: white;
+    justify-content: space-between;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+label{
+    color: #010101;
+    background-color: white;
+    font-size: 18px;
+}
+
+select{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+#selected{
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1px black;
+}
+
+input[type="submit"]{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+input[type="reset"]{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] , input[type="reset"]:hover{
+    box-shadow: 1px 1px 1px black;
+}
